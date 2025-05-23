@@ -79,11 +79,11 @@ box5.addEventListener("mouseleave", function() {
 // Ejercicio 5: Validar palabra "javascript"
 document.getElementById("inputPalabra").addEventListener("keyup", function() {
     const msg = document.getElementById("validacionPalabra");
-    if (this.value.toLowerCase() === "javascript") {
-        msg.textContent = "¡Correcto!";
+    if (this.value.toLowerCase() === "lenguajes de internet") {
+        msg.textContent = "¡Correcto! :D";
         msg.style.color = "green";
     } else {
-        msg.textContent = this.value.length > 0 ? "Palabra incorrecta" : "";
+        msg.textContent = this.value.length > 0 ? "la Palabra  es incorrecta" : "";
         msg.style.color = "red";
     }
 });

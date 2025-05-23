@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taller de JavaScript - Eventos</title>
+    <!-- Enlace al archivo CSS -->
+    <link rel="stylesheet" href="styllos.css">
+</head>
+<body>
+    <h1>Taller de JavaScript - EventoS</h1>
+
+    <!-- Click para cambiar color -->
+    <section>
+        <h2>Actividad 1 Click para cambiar color</h2>
+        <div id="box1" class="box"></div>
+        <button id="btnColor">Cambiar coloor</button>
+    </section>
+
+    <!-- Mouseover para mostrar mensaje -->
+    <section>
+        <h2>Ejemplo 2: Mouseover para mostrar mensaje</h2>
+        <div id="box2" class="box"></div>
+        <p id="msgHover" class="msg"></p>
+    </section>
+
+    <!-- Contador de caracteres -->
+    <section>
+        <h2>Ejemplo 3: Contador de caracteres (input)</h2>
+        <input type="text" id="inputTexto" placeholder="Escribe algo...">
+        <p id="contador" class="msg">Caracteres escritos: 0</p>
+    </section>
+
+    <!-- Menú desplegable -->
+    <section>
+        <h2>Ejemplo 4: Mostrar valor seleccionado (change)</h2>
+        <select id="selectOpciones">
+            <option value="">Selecciona una opción</option>
+            <option value="Manzana">Manzana</option>
+            <option value="Banana">Banana</option>
+        </select>
+        <p id="opcionSeleccionada" class="msg"></p>
+    </section>
+
+    <!-- Doble click para agrandar -->
+    <section>
+        <h2>Ejemplo 5: Doble click para agrandar</h2>
+        <div id="box3" class="box" style="background: coral;"></div>
+    </section>
+
+    <!-- Mostrar tecla presionada -->
+    <section>
+        <h2>Ejercicio 1: Evento keydown – Mostrar tecla</h2>
+        <input type="text" id="inputTecla" placeholder="Presiona una tecla...">
+        <p id="teclaPresionada" class="msg"></p>
+    </section>
+
+    <!-- Focus y blur -->
+    <section>
+        <h2>Ejercicio 2: Eventos focus y blur</h2>
+        <input type="text" id="inputBorde" placeholder="Haz clic aquí...">
+    </section>
+
+    <!-- 3: Bloquear clic derecho -->
+    <section>
+        <h2>Ejercicio 3: contextmenu — Bloquear clic</h2>
+        <div id="box4" class="box" style="background: lightgreen;">Clic derecho aquí</div>
+    </section>
+
+    <!--  Mouseleave -->
+    <section>
+        <h2>Ejercicio 4: mouseleave — Restaurar color</h2>
+        <div id="box5" class="box" style="background: lightyellow;"></div>
+    </section>
+
+    <!-- : Validar palabra -->
+    <section>
+        <h2>Ejercicio 5: keyup — Validar palabra</h2>
+        <input type="text" id="inputPalabra" placeholder="Escribe 'javascript'">
+        <p id="validacionPalabra" class="msg"></p>
+    </section>
+
+    <!--  archivo JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>

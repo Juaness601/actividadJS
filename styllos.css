@@ -1,0 +1,51 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    line-height: 1.6;
+}
+
+/* Cajas interactivas */
+.box {
+    width: 100px;
+    height: 100px;
+    border: 2px solid #333;
+    margin: 10px 0;
+    transition: all 0.3s ease; /* Efecto suave al cambiar propiedades */
+}
+
+/* Mensajes de respuesta */
+.msg {
+    min-height: 20px;
+    padding: 5px;
+    margin: 5px 0;
+    color: #333;
+}
+
+/* Campos de texto y botones */
+input, select, button {
+    margin: 5px 0;
+    padding: 8px;
+    width: 200px;
+}
+
+button {
+    cursor: pointer;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+}
+
+/* Estilo para cuando un input tiene foco */
+.highlight {
+    border: 2px solid red !important;
+}
+
+/* Separación entre secciones */
+section {
+    margin-bottom: 30px;
+    padding: 15px;
+    border-bottom: 1px solid #eee;
+}
